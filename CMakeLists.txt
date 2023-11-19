@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.0)
-project(YourProjectName)
+cmake_minimum_required(VERSION 3.5)
+project(FUN_MIRROR)
 
 # Set C++ Standard
 set(CMAKE_CXX_STANDARD 11)
