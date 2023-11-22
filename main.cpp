@@ -1,6 +1,8 @@
 #include <opencv2/opencv.hpp>
+#include <opencv2/dnn.hpp>
 #include <iostream>
 int main() {
+    cv::dnn::Net net = cv::dnn::readNetFromTensorflow("../model/saved_model.pb");
         // create video capture object 
         cv::VideoCapture capture(1);
 
